@@ -32,3 +32,28 @@ _No experimental results yet._
 
 _Add questions here as they arise._
 
+## Phase 1 — The financial problem
+
+### My explanation
+
+A European call option gives me the right, but not the obligation, to buy a stock at a fixed strike price on its expiration date. Its payoff is the greater of the final stock price minus the strike price or zero. It can be valuable before expiration because I can benefit if the stock rises while declining the transaction if exercising would hurt me. FastMonte will help determine what the call option is worth today so a buyer and seller can agree on the price paid for that future choice.
+
+### What I learned
+
+- A stock share represents a small ownership interest in a company.
+- A European call option can be exercised only on its expiration date.
+- Call payoff is `max(final stock price - strike price, 0)`.
+- Payoff and profit differ because the option itself normally costs money upfront.
+- Greater volatility and more time to expiration generally make a call option more valuable.
+- Higher interest rates generally increase a call option's value because payment of the strike price is delayed.
+- Pricing models depend on simplifying assumptions and do not perfectly reproduce real markets.
+
+### Running example
+
+- Stock price today: $100
+- Strike price: $105
+- Time to expiration: one year
+
+### Current open question
+
+How can we estimate a fair option price today when the stock's final price is unknown?
