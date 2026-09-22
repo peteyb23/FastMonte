@@ -66,7 +66,7 @@ Files will be introduced during the phase in which their purpose is learned.
 ## Project checklist
 
 - [x] Phase 0: Define the finished project, lock scope, and establish the repository
-- [ ] Phase 1: Learn the financial problem and explain it in my own words
+- [x] Phase 1: Learn the financial problem and explain it in my own words
 - [ ] Phase 2: Learn probability and Monte Carlo through a small simulation
 - [ ] Phase 3: Build the simplest standard Monte Carlo option pricer
 - [ ] Phase 4: Understand and implement the stock-price model
@@ -81,5 +81,4 @@ Files will be introduced during the phase in which their purpose is learned.
 
 ## Current status
 
-Phase 0 is complete locally. No pricing or simulation code has been written yet.
-
+Phases 0 and 1 are complete. The financial problem and call-option payoff are understood; no pricing or simulation code has been written yet.
